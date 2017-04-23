@@ -1,0 +1,7 @@
+#webstorm
+.idea/
+
+.DS_STORE
+node_modules
+
+*.log*
