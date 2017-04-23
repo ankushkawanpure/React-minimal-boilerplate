@@ -57,7 +57,7 @@ module.exports = function (env) {
     devtool: isProd ? 'source-map' : 'eval',
     context: sourcePath,
     entry: {
-      js: './index.js',
+      js: './index.jsx',
       vendor: ['react']
     },
     output: {
@@ -116,7 +116,7 @@ module.exports = function (env) {
     },
 
     devServer: {
-      contentBase: './client',
+      contentBase: './src',
       historyApiFallback: true,
       port: 3000,
       compress: isProd,
