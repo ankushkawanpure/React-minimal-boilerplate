@@ -1,6 +1,6 @@
 # React-minimal-boilerplate
 
-##Runing Project
+## Runing Project
 
 ### Install
 
